@@ -28,6 +28,14 @@ Dataset contains 6 categories of garbage images:
 - Plastic
 - Trash
 
+ 
+ ## Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
 
 
 

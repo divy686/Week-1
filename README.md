@@ -1,15 +1,12 @@
-# Week-1
+# Garbage Classification using CNN - Week 1
 
-This is my Week 1 submission for the Garbage Classification project under Edunet i-Shell in AI internship.
+This is my Week 1 submission for the **Garbage Classification Project** under the **i-Shell in AI internship by Edunet Foundation**.
 
-##  Files Included
+---
 
-- `notebook.ipynb`: Jupyter notebook for training and visualizing model accuracy & loss.
-- `data.zip`: Contains the garbage image dataset used for training and validation.
+## Objective
 
-##  Dataset
-
-The dataset contains images of the following 6 garbage categories:
+To build a Convolutional Neural Network (CNN) model that classifies garbage images into 6 categories:
 - Cardboard
 - Glass
 - Metal
@@ -17,18 +14,62 @@ The dataset contains images of the following 6 garbage categories:
 - Plastic
 - Trash
 
-Google Drive Link to Dataset: [Click here to download](https://drive.google.com/file/d/1B-NGm_DqdMTu_cKU2hjf0mv6A4kr6dBB/view?usp=sharing)
+---
 
-> Make sure to extract the zip file before training.
+## Dataset Used
 
-## Tasks Completed in Week 1
+- **Source:** [Kaggle - Trash Type Image Dataset](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset)
+- The dataset was downloaded, extracted, and used for model training.
+- Images were resized to **150x150 pixels** for processing.
 
-- Loaded image data using `ImageDataGenerator`
-- Built a Convolutional Neural Network (CNN) model using TensorFlow/Keras
+---
+
+## Work Done in Week 1
+
+- Downloaded & prepared the dataset
+- Applied image preprocessing using `ImageDataGenerator`
+- Built a basic CNN model using TensorFlow/Keras
 - Trained the model for 5 epochs
-- Plotted training and validation accuracy & loss graphs
+- Plotted **Training & Validation Accuracy/Loss** graphs
 
-##  Output
+---
 
-- Successfully visualized model accuracy and loss graphs
-- Observed improvement in validation accuracy with each epoch
+## Model Architecture
+
+- Conv2D → MaxPooling2D  
+- Conv2D → MaxPooling2D  
+- Flatten  
+- Dense (ReLU)  
+- Dense (Softmax - 6 classes)
+
+---
+
+## Output Graphs
+
+The following graphs were plotted after training:
+
+- Training vs Validation Accuracy
+- Training vs Validation Loss
+
+---
+
+## Tools Used
+
+- Python
+- Jupyter Notebook
+- TensorFlow / Keras
+- Matplotlib
+- NumPy
+
+---
+
+##  Status
+
+-  Dataset Loaded & Preprocessed  
+-  CNN Model Built  
+-  Trained on 6 Classes  
+-  Accuracy & Loss Graphed  
+
+
+
+

@@ -1,43 +1,35 @@
-# Garbage Classification using CNN
+# Garbage Classification Project
 
-This project is part of the i-Shell in AI internship under the Edunet Foundation.  
-It focuses on building a Convolutional Neural Network (CNN) model to classify garbage images into six categories.
-
----
-
-##  Project Status: Week 1 
-
--  Dataset Downloaded & Structured
--  Image Preprocessing & Augmentation
--  CNN Model Built & Trained
--  Accuracy & Loss Graphs Plotted
--  Model Saved as `garbage_model.h5`
+##  Project Overview
+This is a machine learning model to classify garbage into 6 categories (cardboard, glass, metal, paper, plastic, trash) using CNN.
 
 
 
-##  Dataset Used
+##  Week 1: Data Loading, Preprocessing, and Training
+- Imported libraries and dataset
+- Preprocessed and augmented images
+- Visualized image samples
+- Trained CNN model
+- Saved model as `garbage_classification_model.h5`
 
-**Trash Type Image Dataset** from Kaggle:  
-🔗 [https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset)
 
-Dataset contains 6 categories of garbage images:
-- Cardboard
-- Glass
-- Metal
-- Paper
-- Plastic
-- Trash
 
- 
- ## Technologies Used
+##  Week 2: Model Evaluation and Testing
+- Loaded the saved model
+- Evaluated on validation data
+- Confusion matrix and classification report
+- Tested on single & multiple sample images
+- Visualized model accuracy and loss graphs
+
+
+
+## 🛠️ Tools Used
 - Python
-- TensorFlow / Keras
-- NumPy
+- TensorFlow
+- Keras
 - Matplotlib
-- Jupyter Notebook
-
-
-
+- Seaborn
+- Scikit-learn
 
 
 

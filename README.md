@@ -51,11 +51,11 @@ The goal is to assist in automating waste segregation using machine learning.
 ###  Steps to Run app.py
 
 
-# Step 1: Move to the project directory
+## Step 1: Move to the project directory
 cd path/to/garbage_classification_project
 
-# Step 2: Activate environment (if any)
+## Step 2: Activate environment (if any)
 conda activate garbage-env
 
-# Step 3: Run the app
+## Step 3: Run the app
 python app.py

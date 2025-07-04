@@ -24,11 +24,11 @@ def classify(img):
     
     return f"Predicted: {class_label} (Confidence: {confidence:.2f})"
 
-# 4. Gradio Interface
+
 interface = gr.Interface(fn=classify, 
                          inputs=gr.Image(type="pil"), 
                          outputs="text",
                          title="Garbage Classification App")
 
-# 5. Launch
+
 interface.launch()
